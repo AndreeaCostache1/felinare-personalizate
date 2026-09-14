@@ -23,6 +23,30 @@ body {
     border-bottom: 1px solid #eeeeee;
 }
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 220px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
 /* MENIU */
 .menu {
     width: 30px;
