@@ -20,8 +20,7 @@
         .shipping-card h3,.step h3 { font:500 25px Georgia,serif; margin:0 0 10px; }
         .shipping-card p,.step p { color:var(--muted);line-height:1.65;margin:0; }
         .small-note { margin-top:18px; padding:17px 20px; border-left:3px solid #b48b6b; background:#f0eee7; color:#555b54; line-height:1.6; font-size:14px; }
-        .packing { margin-top:74px; display:grid;grid-template-columns:.88fr 1.12fr;gap:46px;align-items:center; }
-        .packing-photo img { width:100%;height:410px;object-fit:cover;border-radius:8px 80px 8px 8px;display:block; }
+        .packing { margin-top:74px; }
         .steps { list-style:none;padding:0;margin:23px 0 0; }
         .step { display:grid;grid-template-columns:34px 1fr;gap:13px;padding:15px 0;border-bottom:1px solid var(--line); }
         .step-number { width:30px;height:30px;border-radius:50%;background:#e7ecdf;color:var(--green);display:grid;place-items:center;font-weight:700;font-size:13px; }
@@ -36,7 +35,7 @@
         .contact-box { margin-top:52px;padding:27px;border-radius:10px;background:#e7ecdf;text-align:center; }
         .contact-box p { color:var(--muted);margin:8px 0 17px; }
         .contact-box a { display:inline-block;background:#30372f;color:#fff;text-decoration:none;border-radius:6px;padding:12px 20px; }
-        @media(max-width:700px){.transport-main{padding:38px 18px 55px}.shipping-options,.packing,.photo-grid{grid-template-columns:1fr}.packing{gap:26px;margin-top:55px}.packing-photo{order:-1}.packing-photo img{height:310px}.photo-card img{height:390px}.intro{margin-bottom:30px}}
+        @media(max-width:700px){.transport-main{padding:38px 18px 55px}.shipping-options,.photo-grid{grid-template-columns:1fr}.packing{margin-top:55px}.photo-card img{height:390px}.intro{margin-bottom:30px}}
     </style>
 </head>
 <body>
@@ -55,7 +54,7 @@
             <article class="shipping-card"><div class="shipping-icon" aria-hidden="true">⌂</div><h3>Preț curier la ușă</h3><p>25 lei</p></article>
             <article class="shipping-card"><div class="shipping-icon" aria-hidden="true">▦</div><h3>Preț livrare la locker</h3><p>20 lei</p></article>
         </section>
-        <div class="small-note">Costul și estimarea livrării sunt afișate la plasarea comenzii. Pentru livrarea la locker, urmărește mesajele
+        <div class="small-note">Estimarea livrării este afisata la plasarea comenzii. Pentru livrarea la locker, urmărește mesajele
              curierului pentru detaliile și termenul de ridicare.</div>
 
         <section class="packing" aria-labelledby="packing-title">
@@ -66,7 +65,6 @@
                     <li class="step"><span class="step-number">3</span><div><h3>Pregătim coletul</h3><p>Închidem și etichetăm coletul, apoi îl predăm firmei de curierat.</p></div></li>
                 </ol>
             </div>
-            <div class="packing-photo"><img src="FelinarPersonalizatCuCruceCuPozaSiTextIeftin..png" alt="Exemplu de felinar personalizat pregătit pentru ambalare"></div>
         </section>
 
         <section class="photo-section" aria-labelledby="photos-title">
